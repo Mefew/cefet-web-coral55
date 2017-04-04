@@ -1,2 +1,44 @@
 /* Importa o arquivo CSS que importa a fonte Ravie */
 @import "fonts/ravie.css";
+
+#recipiente {
+	margin: auto;
+	width: 800px;
+	background: linear-gradient(0deg, #4599b2, #f6f1b2);
+}
+
+#cabecalho h1 {
+	font-family: "Ravie";
+	font-size: 36px;
+	color: #e90c0c;
+	position: relative;
+	left: 165px;
+	padding-top: 20px;
+	margin: 10px 0px 10px 0px;
+}
+#cabecalho h2 {
+	font-family: "Trebuchet MS";
+	font-size: 24px;
+	color: #333;
+	position: relative;
+	left: 380px;
+	box-sizing: border-box;
+	margin: 0px 0px 0px 0px;
+}
+#cabecalho #acai {
+	color: #d027aa;
+}
+
+#lateral {
+	float: left;
+	width: 154px;
+}
+
+#cardapio .price {
+	float: right;
+	padding-right: 20px;
+}
+
+#cardapio {
+	
+}
