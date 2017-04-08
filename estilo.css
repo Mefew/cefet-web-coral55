@@ -10,6 +10,7 @@
 #cabecalho h1 {
 	font-family: "Ravie";
 	font-size: 36px;
+	font-weight: normal;
 	color: #e90c0c;
 	position: relative;
 	left: 165px;
@@ -19,11 +20,12 @@
 #cabecalho h2 {
 	font-family: "Trebuchet MS";
 	font-size: 24px;
+	font-weight: normal;
 	color: #333;
 	position: relative;
 	left: 380px;
 	box-sizing: border-box;
-	margin: 0px 0px 0px 0px;
+	margin: 0px 0px 10px 0px;
 }
 #cabecalho #acai {
 	color: #d027aa;
@@ -32,6 +34,34 @@
 #lateral {
 	float: left;
 	width: 154px;
+	position: relative;
+}
+
+#lateral h2 {
+	transform: rotate(-90deg);
+	font-family: "Verdana";
+	font-size: 48px;
+	color: #333;
+	top: 69px;
+	position: relative;
+}
+
+#siri {
+	position: relative;
+	top: -113px;
+	left: -8px;
+}
+
+#bolhas {
+	position: relative;
+	top: 90px;
+	left: 39px;
+}
+
+#peixe {
+	position: relative;
+	top: 99px;
+	right: 44px;
 }
 
 #cardapio .price {
@@ -40,5 +70,46 @@
 }
 
 #cardapio {
-	
+	width: 646px;
+	box-sizing: border-box;
+	border-style: solid;
+	border-color: #aac0ae;
+	border-radius: 8px;
+	border-width: 1px;
+	padding-left: 20px;
+	/*position: relative;
+	left: 154px;*/
+	background: rgba(255,255,255,0.2);
+	float: right;
+	font-family: "Verdana";
+}
+
+#cardapio p {
+	font-size: 14px;
+	margin: 10px 0px 10px 0px;
+}
+
+#cardapio h3 {
+	font-size: 18px;
+}
+
+#rodape {
+	clear: left;
+	clear: right;
+	text-align: right;
+}
+#rodape img {
+	margin: 46px 15px 25px 0px;
+
+}
+
+#cupom {
+	position: fixed;
+	top: 50%;
+	left: -100px;
+  	transition: left 100ms ease-out;
+}
+
+#cupom:hover {
+	left: 0px;
 }
